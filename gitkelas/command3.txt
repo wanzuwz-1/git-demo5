@@ -1,0 +1,289 @@
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 ~
+$ cd /c
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             laragon/                st3csp11.dll*
+ bootmgr                    MSOCache/               swapfile.sys
+ BOOTNXT                    pagefile.sys            SWSetup/
+ curl.exe*                 'pentaho 3.7'/          'System Volume Information'/
+'Documents and Settings'@   PerfLogs/               system.sav/
+ Drivers/                  'PHP CODEIGNITER'/       Users/
+ git-moe/                  'Program Files'/         Windows/
+ hiberfil.sys              'Program Files (x86)'/   xampp/
+ instantclient/             ProgramData/            Z/
+ Intel/                     Recovery/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ cd /c/git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ ls
+git-demo5/  git-moe6/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-demo5
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ ls
+index.html  README.md  sample.html  student/  tagging.txt
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/wanzuwz-1/git-demo5.git
+   24e8a43..367d2ab  master -> master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git tag -l
+v1.0.0
+v2.0.0
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch -d student
+Deleted branch student (was 367d2ab).
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch student22 student2
+fatal: A branch named 'student22' already exists.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch student2 student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student2
+  student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch -d student22
+Deleted branch student22 (was 367d2ab).
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch -m student2 student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Everything up-to-date
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch -d student22
+Deleted branch student22 (was 367d2ab).
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Everything up-to-date
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ gitt add.
+bash: gitt: command not found
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ gitt add .
+bash: gitt: command not found
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git add .
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -m "delete student"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Everything up-to-date
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git config --global --list
+user.name=Wan Zuhaidee
+user.email=wanzuhaidee.moe@1govuc.gov.my
+gui.recentrepo=C:/git-moe/git-demo5
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ notepad
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ notepad++
+bash: notepad++: command not found
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ notepad++
+bash: notepad++: command not found
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git --global --list
+unknown option: --global
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git config --global --list
+user.name=Wan Zuhaidee
+user.email=wanzuhaidee.moe@1govuc.gov.my
+gui.recentrepo=C:/git-moe/git-demo5
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git config --global core.editor "notepad"
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git config --global --list
+user.name=Wan Zuhaidee
+user.email=wanzuhaidee.moe@1govuc.gov.my
+gui.recentrepo=C:/git-moe/git-demo5
+core.editor=notepad
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git pull
+Already up to date.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git pull
+remote:                                                                         remote: Enumerating objects: 5, done.
+remote:                                                                         remote:                                                                         remote:                                                                         remote:                                                                         remote:                                                                         remote:                                                                         remote: Counting objects: 100% (5/5), done.
+remote:                                                                         remote:                                                                         remote:                                                                         remote:                                                                         remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/wanzuwz-1/git-demo5
+   69c77dc..32e242a  master     -> origin/master
+Updating 69c77dc..32e242a
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ cd
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 ~
+$ cd /c/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             laragon/                st3csp11.dll*
+ bootmgr                    MSOCache/               swapfile.sys
+ BOOTNXT                    pagefile.sys            SWSetup/
+ curl.exe*                 'pentaho 3.7'/          'System Volume Information'/
+'Documents and Settings'@   PerfLogs/               system.sav/
+ Drivers/                  'PHP CODEIGNITER'/       Users/
+ git-moe/                  'Program Files'/         Windows/
+ hiberfil.sys              'Program Files (x86)'/   xampp/
+ instantclient/             ProgramData/            Z/
+ Intel/                     Recovery/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ cd /c/git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ ls
+git-demo5/  git-moe6/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-moe6
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 89, done.
+remote: Counting objects: 100% (70/70), done.
+remote: Compressing objects: 100% (32/32), done.
+remote: Total 58 (delta 26), reused 45 (delta 18)
+Unpacking objects: 100% (58/58), done.
+From https://gitlab.com/azman1204/git-moe6
+   8b21093..09b11e6  master     -> origin/master
+Updating 8b21093..09b11e6
+Fast-forward
+ anakku.html      | 1 +
+ azman.html       | 2 ++
+ borhanuddin.html | 4 ++++
+ jamiah.html      | 3 ++-
+ muslifa.html     | 2 ++
+ rahimah.html     | 2 ++
+ ria.html         | 4 ++++
+ rubita.html      | 1 +
+ 8 files changed, 18 insertions(+), 1 deletion(-)
+ create mode 100644 anakku.html
+ create mode 100644 borhanuddin.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 8 (delta 3), reused 0 (delta 0)
+Unpacking objects: 100% (8/8), done.
+From https://gitlab.com/azman1204/git-moe6
+   09b11e6..0e57fd7  master     -> origin/master
+Updating 09b11e6..0e57fd7
+Fast-forward
+ azman.html    | 2 ++
+ fadhilah.html | 2 ++
+ 2 files changed, 4 insertions(+)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ cd /c/git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ ls
+git-demo5/  git-moe6/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-dmo5
+bash: cd: git-dmo5: No such file or directory
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-demo5
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ cd /c/git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-moe6
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ ls
+ain.html          irman.html    muslifa.html  rosdi.html    wanzaimah.html
+anakku.html       jamiah.html   nota.txt      rubita.html   wanzuhaidee.html
+azman.html        joshua.html   rahimah.html  sahdeli.html  zaieaziz.html
+borhanuddin.html  juraini.html  README.md     shahril.html  Zila.html
+elia.html         matadam.html  ria.html      sureiya.html  zulkifli_1.html
+fadhilah.html     mizan.html    rohaya.html   suzaini.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$

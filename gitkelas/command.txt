@@ -1,0 +1,4 @@
+cd - change dir
+cd../..
+cwd - show curr dir
+ls - list file / folder

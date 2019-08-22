@@ -1,0 +1,1188 @@
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 ~
+$ git version
+git version 2.22.0.windows.1
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 ~
+$ c:
+bash: c:: command not found
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 ~
+$ cd /
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /
+$ cd /c
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             MSOCache/               swapfile.sys
+ bootmgr                    pagefile.sys            SWSetup/
+ BOOTNXT                   'pentaho 3.7'/          'System Volume Information'/
+ curl.exe*                  PerfLogs/               system.sav/
+'Documents and Settings'@  'PHP CODEIGNITER'/       Users/
+ Drivers/                  'Program Files'/         Windows/
+ hiberfil.sys              'Program Files (x86)'/   xampp/
+ instantclient/             ProgramData/            Z/
+ Intel/                     Recovery/
+ laragon/                   st3csp11.dll*
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ mkdir git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             laragon/                st3csp11.dll*
+ bootmgr                    MSOCache/               swapfile.sys
+ BOOTNXT                    pagefile.sys            SWSetup/
+ curl.exe*                 'pentaho 3.7'/          'System Volume Information'/
+'Documents and Settings'@   PerfLogs/               system.sav/
+ Drivers/                  'PHP CODEIGNITER'/       Users/
+ git-moe/                  'Program Files'/         Windows/
+ hiberfil.sys              'Program Files (x86)'/   xampp/
+ instantclient/             ProgramData/            Z/
+ Intel/                     Recovery/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ cd git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ git clone https://github.com/wanzuwz-1/git-demo5.git
+Cloning into 'git-demo5'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ ls
+git-demo5/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-demo5/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ ls
+README.md
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ touch index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ ls
+index.html  README.md
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ ls -al
+total 5
+drwxr-xr-x 1 DBPM1104BL24+Admin 197121  0 Aug 21 10:41 ./
+drwxr-xr-x 1 DBPM1104BL24+Admin 197121  0 Aug 21 10:37 ../
+drwxr-xr-x 1 DBPM1104BL24+Admin 197121  0 Aug 21 10:37 .git/
+-rw-r--r-- 1 DBPM1104BL24+Admin 197121  0 Aug 21 10:41 index.html
+-rw-r--r-- 1 DBPM1104BL24+Admin 197121 34 Aug 21 10:37 README.md
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git add index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git staatus
+git: 'staatus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   index.html
+
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -m "create index html"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <Admin@DBPM1104BL24.KPMDOM.moe.gov.my>) not allowed
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git comit -m "create index html"
+git: 'comit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -m "create index html"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <Admin@DBPM1104BL24.KPMDOM.moe.gov.my>) not allowed
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git config --global user.name "Wan Zuhaidee"
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git config --global user.email "wanzuhaidee.moe@1govuc.gov.my"
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -m "create index html"
+[master 407a357] create index html
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 309 bytes | 309.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/wanzuwz-1/git-demo5.git
+   128f8bb..407a357  master -> master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git lock
+git: 'lock' is not a git command. See 'git --help'.
+
+The most similar command is
+        fsck
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git log
+commit 407a35765487867940916c7e4d5020a29f6112ba (HEAD -> master, origin/master, origin/HEAD)
+Author: Wan Zuhaidee <wanzuhaidee.moe@1govuc.gov.my>
+Date:   Wed Aug 21 10:58:55 2019 +0800
+
+    create index html
+
+commit 128f8bb8b7e3508ea0c6bcb3899ccc5a1b0797eb
+Author: wanzuwz-1 <54340921+wanzuwz-1@users.noreply.github.com>
+Date:   Wed Aug 21 10:23:52 2019 +0800
+
+    Initial commit
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git --help log
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git log --online
+fatal: unrecognized argument: --online
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git --online
+unknown option: --online
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        sample.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git add .
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   index.html
+        new file:   sample.html
+
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git reset HEAD index.html
+Unstaged changes after reset:
+M       index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   sample.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -m "create sample html"
+[master 7f0240f] create sample html
+ 1 file changed, 1 insertion(+)
+ create mode 100644 sample.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git add index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit - m "modified index.html"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'modified index.html' did not match any file(s) known to git
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -m "modified index.html"
+[master c3cb489] modified index.html
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 679 bytes | 339.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/wanzuwz-1/git-demo5.git
+   407a357..c3cb489  master -> master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ cd /c/git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ git clone https://gitlab.com/azman1204/git-moe6.git
+Cloning into 'git-moe6'...
+Logon failed, use ctrl+c to cancel basic credential prompt.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://gitlab.com':
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ git clone https://gitlab.com/azman1204/git-moe6.git
+Cloning into 'git-moe6'...
+Logon failed, use ctrl+c to cancel basic credential prompt.
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://gitlab.com': wanzuwz-1
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/azman1204/git-moe6.git/'
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ https://gitlab.com/azman1204/git-moe6.git
+bash: https://gitlab.com/azman1204/git-moe6.git: No such file or directory
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ git clone https://gitlab.com/azman1204/git-moe6.git
+Cloning into 'git-moe6'...
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/azman1204/git-moe6.git/'
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ git clone https://gitlab.com/azman1204/git-moe6.git
+Cloning into 'git-moe6'...
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/azman1204/git-moe6.git/'
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ git clone https://gitlab.com/azman1204/git-moe6.git
+Cloning into 'git-moe6'...
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/azman1204/git-moe6.git/'
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ git clone https://gitlab.com/azman1204/git-moe6.git
+Cloning into 'git-moe6'...
+remote: HTTP Basic: Access denied
+fatal: Authentication failed for 'https://gitlab.com/azman1204/git-moe6.git/'
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ git clone https://gitlab.com/azman1204/git-moe6.git
+Cloning into 'git-moe6'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (6/6), done.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-moe6
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ touch wanzuhaidee.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ ls
+index.html  README.md  wanzuhaidee.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ echo "hello" >> wanzuhaidee.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        wanzuhaidee.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git add wanzuhaidee.html
+warning: LF will be replaced by CRLF in wanzuhaidee.html.
+The file will have its original line endings in your working directory
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git add .
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git commit -m "create WanZu file"
+[master 0578980] create WanZu file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 wanzuhaidee.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 2 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (2/2), done.
+From https://gitlab.com/azman1204/git-moe6
+   3bd1038..b216f6d  master     -> origin/master
+Removing index.html
+Merge made by the 'recursive' strategy.
+ index.html | 3 ---
+ 1 file changed, 3 deletions(-)
+ delete mode 100644 index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 10 (delta 4), reused 0 (delta 0)
+Unpacking objects: 100% (10/10), done.
+From https://gitlab.com/azman1204/git-moe6
+   b216f6d..ec84124  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ rosdi.html  | 1 +
+ rubita.html | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 rosdi.html
+ create mode 100644 rubita.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git push
+To https://gitlab.com/azman1204/git-moe6.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://gitlab.com/azman1204/git-moe6.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 2), reused 0 (delta 0)
+Unpacking objects: 100% (6/6), done.
+From https://gitlab.com/azman1204/git-moe6
+   ec84124..e7947e1  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ zulkifli_1.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 zulkifli_1.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git push
+To https://gitlab.com/azman1204/git-moe6.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://gitlab.com/azman1204/git-moe6.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 11, done.
+remote: Counting objects: 100% (11/11), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 8 (delta 4), reused 0 (delta 0)
+Unpacking objects: 100% (8/8), done.
+From https://gitlab.com/azman1204/git-moe6
+   e7947e1..83ac4b4  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ ria.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ria.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git push
+To https://gitlab.com/azman1204/git-moe6.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://gitlab.com/azman1204/git-moe6.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 17, done.
+remote: Counting objects: 100% (17/17), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 14 (delta 7), reused 0 (delta 0)
+Unpacking objects: 100% (14/14), done.
+From https://gitlab.com/azman1204/git-moe6
+   83ac4b4..cda14e1  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ muslifa.html | 1 +
+ rohaya.html  | 3 +++
+ 2 files changed, 4 insertions(+)
+ create mode 100644 muslifa.html
+ create mode 100644 rohaya.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git push
+To https://gitlab.com/azman1204/git-moe6.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://gitlab.com/azman1204/git-moe6.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 10 (delta 4), reused 9 (delta 3)
+Unpacking objects: 100% (10/10), done.
+From https://gitlab.com/azman1204/git-moe6
+   cda14e1..a863a14  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ juraini.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 juraini.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 37, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 28 (delta 12), reused 0 (delta 0)
+Unpacking objects: 100% (28/28), done.
+From https://gitlab.com/azman1204/git-moe6
+   a863a14..bb2bf23  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ rosdi.html    | 6 +++++-
+ suzaini.html  | 1 +
+ zaieaziz.html | 1 +
+ 3 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 suzaini.html
+ create mode 100644 zaieaziz.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git push
+To https://gitlab.com/azman1204/git-moe6.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://gitlab.com/azman1204/git-moe6.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 52, done.
+remote: Counting objects: 100% (52/52), done.
+remote: Compressing objects: 100% (41/41), done.
+remote: Total 44 (delta 18), reused 0 (delta 0)
+Unpacking objects: 100% (44/44), done.
+From https://gitlab.com/azman1204/git-moe6
+   bb2bf23..e64eaa3  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ jamiah.html  | 1 +
+ matadam.html | 0
+ mizan.html   | 1 +
+ 3 files changed, 2 insertions(+)
+ create mode 100644 jamiah.html
+ create mode 100644 matadam.html
+ create mode 100644 mizan.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git push
+To https://gitlab.com/azman1204/git-moe6.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://gitlab.com/azman1204/git-moe6.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 16 (delta 8), reused 0 (delta 0)
+Unpacking objects: 100% (16/16), done.
+From https://gitlab.com/azman1204/git-moe6
+   e64eaa3..ae27c9f  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ ain.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 ain.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 4), reused 0 (delta 0)
+Unpacking objects: 100% (7/7), done.
+From https://gitlab.com/azman1204/git-moe6
+   ae27c9f..bc4f9ec  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ fadhilah.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fadhilah.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 15 (delta 5), reused 13 (delta 4)
+Unpacking objects: 100% (15/15), done.
+From https://gitlab.com/azman1204/git-moe6
+   bc4f9ec..d596fef  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ irman.html | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 irman.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+Already up to date.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git push
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (25/25), 3.11 KiB | 797.00 KiB/s, done.
+Total 25 (delta 11), reused 0 (delta 0)
+To https://gitlab.com/azman1204/git-moe6.git
+   d596fef..4e68b59  master -> master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 88, done.
+remote: Counting objects: 100% (78/78), done.
+remote: Compressing objects: 100% (44/44), done.
+remote: Total 65 (delta 25), reused 44 (delta 15)
+Unpacking objects: 100% (65/65), done.
+From https://gitlab.com/azman1204/git-moe6
+   4e68b59..5ba8830  master     -> origin/master
+Updating 4e68b59..5ba8830
+Fast-forward
+ Zila.txt      |  1 +
+ ain.html      |  2 ++
+ azman.html    |  1 +
+ joshua.html   | 12 ++++++++++++
+ mizan.html    |  2 ++
+ shahril.html  |  1 +
+ sureiya.html  |  5 +++++
+ suzaini.html  |  1 +
+ zaieaziz.html |  2 ++
+ 9 files changed, 27 insertions(+)
+ create mode 100644 Zila.txt
+ create mode 100644 azman.html
+ create mode 100644 joshua.html
+ create mode 100644 shahril.html
+ create mode 100644 sureiya.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+Already up to date.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ git pull
+remote: Enumerating objects: 128, done.
+remote: Counting objects: 100% (128/128), done.
+remote: Compressing objects: 100% (70/70), done.
+remote: Total 128 (delta 52), reused 116 (delta 46)
+Receiving objects: 100% (128/128), 14.12 KiB | 1.76 MiB/s, done.
+Resolving deltas: 100% (52/52), completed with 3 local objects.
+From https://gitlab.com/azman1204/git-moe6
+   5ba8830..8b21093  master     -> origin/master
+Updating 5ba8830..8b21093
+Fast-forward
+ Zila.html      | 19 +++++++++++++++++++
+ Zila.txt       |  1 -
+ ain.html       |  2 ++
+ elia.html      |  1 +
+ jamiah.html    |  3 +++
+ joshua.html    | 25 +++++++++++++------------
+ juraini.html   |  1 +
+ matadam.html   |  1 +
+ nota.txt       |  0
+ rahimah.html   |  3 +++
+ rosdi.html     |  2 ++
+ rubita.html    |  2 ++
+ sahdeli.html   |  3 +++
+ suzaini.html   |  5 ++++-
+ wanzaimah.html |  0
+ zaieaziz.html  |  7 +++++++
+ 16 files changed, 61 insertions(+), 14 deletions(-)
+ create mode 100644 Zila.html
+ delete mode 100644 Zila.txt
+ create mode 100644 elia.html
+ create mode 100644 nota.txt
+ create mode 100644 rahimah.html
+ create mode 100644 sahdeli.html
+ create mode 100644 wanzaimah.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-moe6 (master)
+$ cd /c/git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ ls
+git-demo5/  git-moe6/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-demo5
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ ls
+index.html  README.md  sample.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git stash
+Saved working directory and index state WIP on master: c3cb489 modified index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git stash list
+stash@{0}: WIP on master: c3cb489 modified index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git stash pop
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (93ef3fbb21dd983942cf0439d39d83dda52e35a1)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git stash
+Saved working directory and index state WIP on master: c3cb489 modified index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git stash list
+stash@{0}: WIP on master: c3cb489 modified index.html
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git stash pop
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (00f01031e29e2256704f1c407f666e2c6bc2bed8)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -am
+error: switch `m' requires a value
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -am "modify"
+[master dd2e5fe] modify
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git stash pop
+No stash entries found.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git tag -a "v1.0.0" -m "first release to end user"
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git tag -l
+v1.0.0
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        tagging.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -am -m "addcommit"
+fatal: paths 'addcommit ...' with -a does not make sense
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -am "addcommit"
+[master cd06d2b] addcommit
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        tagging.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git add .
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -m "commit"
+[master 24e8a43] commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 tagging.txt
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git tag -l
+v1.0.0
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git tag -a "v2.0.0" -m "second release to end user"
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git tag -l
+v1.0.0
+v2.0.0
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push origin v1.0.0
+Logon failed, use ctrl+c to cancel basic credential prompt.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push origin v2.0.0
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (10/10), 1.04 KiB | 354.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0)
+remote:                                                                         remote:                                                                         remote:                                                                         remote:                                                                         remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/wanzuwz-1/git-demo5.git
+ * [new tag]         v2.0.0 -> v2.0.0
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push origin v1.0.0
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 179 bytes | 179.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0)
+To https://github.com/wanzuwz-1/git-demo5.git
+ * [new tag]         v1.0.0 -> v1.0.0
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ ls
+index.html  README.md  sample.html  tagging.txt
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git checkout student
+Switched to branch 'student'
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git branch
+  master
+* student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ code .
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git checkout student
+Switched to branch 'student'
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git branch
+  master
+* student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git add .
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git commit -m "new features branch"
+[student 367d2ab] new features branch
+ 1 file changed, 5 insertions(+)
+ create mode 100644 student/registration.php
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git checkout master
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/wanzuwz-1/git-demo5.git
+   c3cb489..24e8a43  master -> master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git checkout student
+Switched to branch 'student'
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git push
+fatal: The current branch student has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin student
+
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git branch
+  master
+* student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git push origin student
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 370 bytes | 370.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote:                                                                        remote:                                                                        remote:                                                                        remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'student' on GitHub by visiting:
+remote:      https://github.com/wanzuwz-1/git-demo5/pull/new/student
+remote:
+To https://github.com/wanzuwz-1/git-demo5.git
+ * [new branch]      student -> student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (student)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git merge student
+Updating 24e8a43..367d2ab
+Fast-forward
+ student/registration.php | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 student/registration.php
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ ls
+index.html  README.md  sample.html  student/  tagging.txt
+
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 ~
+$ cd /c
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ ls
+'$Recycle.Bin'/             laragon/                st3csp11.dll*
+ bootmgr                    MSOCache/               swapfile.sys
+ BOOTNXT                    pagefile.sys            SWSetup/
+ curl.exe*                 'pentaho 3.7'/          'System Volume Information'/
+'Documents and Settings'@   PerfLogs/               system.sav/
+ Drivers/                  'PHP CODEIGNITER'/       Users/
+ git-moe/                  'Program Files'/         Windows/
+ hiberfil.sys              'Program Files (x86)'/   xampp/
+ instantclient/             ProgramData/            Z/
+ Intel/                     Recovery/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c
+$ cd /c/git-moe
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ ls
+git-demo5/  git-moe6/
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe
+$ cd git-demo5
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ ls
+index.html  README.md  sample.html  student/  tagging.txt
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/wanzuwz-1/git-demo5.git
+   24e8a43..367d2ab  master -> master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git tag -l
+v1.0.0
+v2.0.0
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch -d student
+Deleted branch student (was 367d2ab).
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch student22 student2
+fatal: A branch named 'student22' already exists.
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch student2 student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student2
+  student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch -d student22
+Deleted branch student22 (was 367d2ab).
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch -m student2 student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Everything up-to-date
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+  student22
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch -d student22
+Deleted branch student22 (was 367d2ab).
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Everything up-to-date
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ gitt add.
+bash: gitt: command not found
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ gitt add .
+bash: gitt: command not found
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git add .
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git commit -m "delete student"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git push
+Everything up-to-date
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$ git branch
+* master
+
+DBPM1104BL24+Admin@DBPM1104BL24 MINGW64 /c/git-moe/git-demo5 (master)
+$
